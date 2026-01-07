@@ -3,7 +3,7 @@ import useFetch from "../useFetch";
 
 const Hotels = () => {
   const [successMessage, setSuccessMessage] = useState("");
-  const {data, loading} = useFetch("http://localhost:3001/hotels")
+  const {data, loading} = useFetch("https://hotels-api-rosy.vercel.app/hotels")
 
   // console.log(data)
   

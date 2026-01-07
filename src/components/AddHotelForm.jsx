@@ -39,7 +39,7 @@ const AddHotelForm = () => {
     event.preventDefault();
     console.log("Sending to backend:", formData);
     try {
-      const response = await fetch("http://localhost:3001/hotels", {
+      const response = await fetch("https://hotels-api-rosy.vercel.app/hotels", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
