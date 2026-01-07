@@ -9,7 +9,7 @@ const Hotels = () => {
   
   const handleDelete = async (hotelId) => {
     try {
-      const response = await fetch(`${hotelId}`, {
+      const response = await fetch(`https://hotels-api-rosy.vercel.app/hotels${hotelId}`, {
         method: "DELETE",
       })
 
