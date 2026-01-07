@@ -1,7 +1,7 @@
 import useFetch from "../useFetch";
 
 const HotelByTitle = ({title}) => {
-  const {data, loading} = useFetch(`https://hotels-api-rosy.vercel.app/hotels${title}`)
+  const {data, loading} = useFetch(`https://hotels-api-rosy.vercel.app/hotels/${title}`)
 
   // console.log(data)
 
